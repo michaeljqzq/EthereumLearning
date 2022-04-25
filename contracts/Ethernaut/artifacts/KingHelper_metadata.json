@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "becomeKing",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/KingHelper.sol": "KingHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/King.sol": {
+			"keccak256": "0xe1e18df771c1572d1b69c43adb9389e2efa9c1c6f6b7080cac1d6c38f6605e3c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e41dcd84820c52e9a31c9c4fec5efcd26c35d4351e500d9573b1d5a1f40d84a",
+				"dweb:/ipfs/QmakdKPZWUmPXj6NRzYM5f2fCEZbVuxk5T8Y9noULJbstv"
+			]
+		},
+		"contracts/Ethernaut/KingHelper.sol": {
+			"keccak256": "0x2a5b5c9766fd0c67581b883348607432b75976784e61ab663da2c29542242d93",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a22d1532552900f5664b842e9f958d2cfe09b00d0aadff40877a8eaf0b22fda",
+				"dweb:/ipfs/QmbDqz69bPJRYUXZLKNRiG76NizTu5SSSegqg1RzMrxi8G"
+			]
+		}
+	},
+	"version": 1
+}

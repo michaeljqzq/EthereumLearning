@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "receiveBalanceAddr",
+						"type": "address"
+					}
+				],
+				"name": "selfdestroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/ForceHelper.sol": "ForceHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/ForceHelper.sol": {
+			"keccak256": "0xa6d29a14773b94ce83dc67a029723078835c4e88cd6653af9f7c0299bfee1bb6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e29e7ccca78aeefed3c9c409ce379619b4139302aae23e006932f32c19856937",
+				"dweb:/ipfs/QmQaUb4JCkZjpRdbnAHGo2jkHgpGomL7xfZMUTXoZ68Mw2"
+			]
+		}
+	},
+	"version": 1
+}

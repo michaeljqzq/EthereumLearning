@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "reetranceContractAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/ReentranceHelper.sol": "ReentranceHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/Reentrance.sol": {
+			"keccak256": "0x0ee692169b7310ddc514c9306d79c24a80f63eae5749e06792029b0b235d680d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7dbe5db09fa3a6ea9dd5661cc7467a660594fb07cb5e4bf30c9be7884b5c104f",
+				"dweb:/ipfs/QmR9MZQrjuQZVDN2iW8yWzj8FWP5b4umRQswdW8auhrmC8"
+			]
+		},
+		"contracts/Ethernaut/ReentranceHelper.sol": {
+			"keccak256": "0x331e774998c27c40a5405fb148a2a77d1610367faea598bb0cb2cdfc1154de5b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce77e252c2d23ab7a543cc0c11393d5de829a93bb149daf6153ebcf061837538",
+				"dweb:/ipfs/QmPi2BhMtYQawuMpnZQC78CAQkJvKMLWHnnZ5jjUBMsjJg"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.1.0/contracts/math/SafeMath.sol": {
+			"keccak256": "0x9a9cf02622cd7a64261b10534fc3260449da25c98c9e96d1b4ae8110a20e5806",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2df142592d1dc267d9549049ee3317fa190d2f87eaa565f86ab05ec83f7ab8f5",
+				"dweb:/ipfs/QmSkJtcfWo7c42KnL5hho6GFxK6HRNV91XABx1P7xDtfLV"
+			]
+		}
+	},
+	"version": 1
+}
