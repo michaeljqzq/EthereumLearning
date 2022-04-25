@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "teleAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "takeOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/TelephoneHelper.sol": "TelephoneHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/Telephone.sol": {
+			"keccak256": "0xe6ec4c399542b01eb4ecb4fb45c7d042a0bbb059e7bb3a66477cfdb46b1cf94a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4333320245baf80cd0eef99e5c3353c3e25b4a07db3cb9d83c59250c35ab8231",
+				"dweb:/ipfs/QmWdGN3oYGjaEHHgSeF3LLRQ1KGEyDoZAKMmuT2uejY6tS"
+			]
+		},
+		"contracts/Ethernaut/TelephoneHelper.sol": {
+			"keccak256": "0xd73ee4b6bb07433ce31226c2562f465590eec28272c65ca51cf320011fcb4e5b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48cdc6b590841ee13bec1e8b4bf45fc00f5a6c0b2f999a75a390c8433deb34e9",
+				"dweb:/ipfs/QmfQZkKx5FmmXmJoGpNMSsEL7B9tYj7gu2d7yszp2BLJeg"
+			]
+		}
+	},
+	"version": 1
+}
