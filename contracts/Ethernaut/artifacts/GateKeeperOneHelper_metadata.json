@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "gateAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes8",
+						"name": "param",
+						"type": "bytes8"
+					}
+				],
+				"name": "delegate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/GateKeeperOneHelper.sol": "GateKeeperOneHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/GateKeeperOneHelper.sol": {
+			"keccak256": "0x5971b68bc6d0f089c2243c7d0d78b25b55a758b9f8ebc83e2d590d9ee5bd8ec4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b42a5600085f04f7918eaf7f2b5944827b091d06b8a59b501a8fa5655d26e8c5",
+				"dweb:/ipfs/QmYbr4bYZWRLKPagj5Dqgpux8JX3vUq69wxQkrN8HDxHSk"
+			]
+		}
+	},
+	"version": 1
+}

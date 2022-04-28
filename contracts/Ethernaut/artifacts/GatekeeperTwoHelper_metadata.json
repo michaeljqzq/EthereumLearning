@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "gateAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "gateAddr",
+						"type": "address"
+					}
+				],
+				"name": "delegate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/GateKeeperTwoHelper.sol": "GatekeeperTwoHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/GateKeeperTwoHelper.sol": {
+			"keccak256": "0x21cf7737223673afc3822353f244a4a5f18c810a789e19dcec7355c9a0a1e97d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3276dc7c1e25212da9e5cb04b078fd0e5eb538ed5eb7f5ce7c796bc660ff1be",
+				"dweb:/ipfs/QmUJ4dQaCLtEyZqMiGTKEKjPUncpUn12jY7R9XiyP8rwYf"
+			]
+		},
+		"contracts/Library.sol": {
+			"keccak256": "0xcc09665f61ec8030b4cdcad42686a312bca62fe178623aa9e450e84f59dac513",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b15c4b156bf3b102b91fb64e14cd9361a0ec7bb72447d71df1257f25f1900d28",
+				"dweb:/ipfs/QmYJW3bwaw3z79ybsRAV1hnMBmPt95PQYWwbUCir21JZyD"
+			]
+		}
+	},
+	"version": 1
+}
