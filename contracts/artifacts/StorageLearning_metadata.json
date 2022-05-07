@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageLearning.sol": "StorageLearning"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StorageLearning.sol": {
+			"keccak256": "0x706f4152c70d2d81d8b30003be0708e425047f5af32e5d062020ee256b6dd2ff",
+			"urls": [
+				"bzz-raw://e1e5cf64739e076d1ac7f950a46ad38d5f98805207d94097f523afb250ac9371",
+				"dweb:/ipfs/Qmc8Ss74tQA15vwegMhGKijrn3kAubhMht7KMmraiEX33D"
+			]
+		}
+	},
+	"version": 1
+}

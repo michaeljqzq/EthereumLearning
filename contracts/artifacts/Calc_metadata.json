@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.12+commit.27d51765"
+		"version": "0.8.13+commit.abaa5c0e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -70,7 +70,7 @@
 		"compilationTarget": {
 			"contracts/CallTest.sol": "Calc"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -83,11 +83,19 @@
 	},
 	"sources": {
 		"contracts/CallTest.sol": {
-			"keccak256": "0xadc1fab2f8f5236cb3cfa6f4fcf1f767a0bbf79d95fa7addf8c1aa2a1baf9ca7",
+			"keccak256": "0x277eb1a979917b00bf707c1f7a29dd85cd11ec59874b07bbda57dbeff07cc28d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://704aa9b362e32b65c1fff21f5ceb42e722e85e26341dc68cca8f844ea70c7666",
-				"dweb:/ipfs/QmXgorW6NfCbM48iEQRbSSfBSDLGVVzfK47Sd6ao7kwGg9"
+				"bzz-raw://25c47a04d4c64af0d4f086961c87d209d229983e128b2656c8cefc1d88280212",
+				"dweb:/ipfs/QmRasxB999PU8r7eNu5xXRLz3syRw3JJvMsL1G8XbJy91S"
+			]
+		},
+		"contracts/Library.sol": {
+			"keccak256": "0xe595913715829f41621726973eb7b105a50282ee0c3ba19db33db2574b55df50",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eefc52c07305d42417614e0e9cf198653f718788c44922d7080786cf68514a2a",
+				"dweb:/ipfs/QmeGFE9cDE6qT8warkNFGPoHkmUwS2ucv8JvPNfbKzxVaQ"
 			]
 		}
 	},

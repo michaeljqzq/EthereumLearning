@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_delegate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/assembly/Return.sol": "Return"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/assembly/Return.sol": {
+			"keccak256": "0x531040faf195fd72e787a632e980e74e75af7a57c8758e9105281ec8c764e876",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2ee35b67f92ab40b74270f38e4a7620a95e0667b10b92e0b1dd1da9d0791925c",
+				"dweb:/ipfs/QmUFLHwWnShZVpGVQXmmBuDPzedkZ13viLndBcHG8hXfor"
+			]
+		}
+	},
+	"version": 1
+}

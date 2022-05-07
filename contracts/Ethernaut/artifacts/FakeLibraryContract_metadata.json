@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_time",
+						"type": "uint256"
+					}
+				],
+				"name": "setTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/PreservationFakeLibrary.sol": "FakeLibraryContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/PreservationFakeLibrary.sol": {
+			"keccak256": "0x035ef8561739eb4146a7a22faaa80f8cc2d2e41cd0d1f77e80b0e5d023e18432",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://14cf88fee682e1e3c25bf3fcc1234bf00b13ea1c7f04a78d54c25012c36b80eb",
+				"dweb:/ipfs/QmV6GGE7YLcT9kUpSPTRaQypgfv2qhAvVDLoF8UqUqVxWm"
+			]
+		}
+	},
+	"version": 1
+}

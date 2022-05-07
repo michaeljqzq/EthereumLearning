@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.6.5+commit.f956cc89"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/Telephone.sol": "Telephone"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/Telephone.sol": {
+			"keccak256": "0xe6ec4c399542b01eb4ecb4fb45c7d042a0bbb059e7bb3a66477cfdb46b1cf94a",
+			"urls": [
+				"bzz-raw://4333320245baf80cd0eef99e5c3353c3e25b4a07db3cb9d83c59250c35ab8231",
+				"dweb:/ipfs/QmWdGN3oYGjaEHHgSeF3LLRQ1KGEyDoZAKMmuT2uejY6tS"
+			]
+		}
+	},
+	"version": 1
+}

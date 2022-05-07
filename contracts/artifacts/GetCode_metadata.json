@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "at",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "o_code",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageLearning.sol": "GetCode"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StorageLearning.sol": {
+			"keccak256": "0xb03ea24c3f9415016727f72356f9e94bc357fc39996a8339989166abc7625784",
+			"urls": [
+				"bzz-raw://4b5b8be133c1db276c30ba0d614198ea068c519eb93c1387795091c840aca5bb",
+				"dweb:/ipfs/QmUEXxxU624ZVu69UfMix1eCeDh1NnMjbPg6RXU9MSR82r"
+			]
+		}
+	},
+	"version": 1
+}

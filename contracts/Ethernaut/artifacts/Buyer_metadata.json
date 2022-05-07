@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/Shop.sol": "Buyer"
+		},
+		"evmVersion": "constantinople",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/Shop.sol": {
+			"keccak256": "0xd6e3b8a3654c179b9de30528cba22a78e6e5144bfbef467fbd5e64fb6f44c39b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7a89fbcc2de2c28ea42ecc761700a4b909442802b932c7436036392f7017542",
+				"dweb:/ipfs/QmV67Vm6YdkGGrxS7hBRidAYreRak1pa21yNTvdQWV4wec"
+			]
+		}
+	},
+	"version": 1
+}

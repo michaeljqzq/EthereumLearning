@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "alienCodexAddr",
+						"type": "address"
+					}
+				],
+				"name": "resolve",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/AlienCodexHelper.sol": "AlienCodexHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/AlienCodex.sol": {
+			"keccak256": "0x5a1d152f51b9c10d4b829ac248769cecd0d7a9b2664e257d3355a8afca61632f",
+			"urls": [
+				"bzz-raw://48a2f60e127602afef01a8312d379264018a4da7f9014cf2abbe67dbf81adee9",
+				"dweb:/ipfs/QmZrjNo4KoxLL6LQjRrsfynjbWNq2MNWzW4m67ZfyYXBpp"
+			]
+		},
+		"contracts/Ethernaut/AlienCodexHelper.sol": {
+			"keccak256": "0xb9f0e802c6282ef3a1236e2191e569db27cedbf11304a113bf69e7eb5839f8cf",
+			"urls": [
+				"bzz-raw://d7fe13861408c38d2594b7a92c52b0bd2dd6e9de24328f47d21847cbe03d0142",
+				"dweb:/ipfs/QmTyRCbnxPB3z93nSDKSBZZcou6t9vgSimCrRbS38JshxK"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-test-helpers/blob/master/contracts/Ownable.sol": {
+			"keccak256": "0x4d3de93fedfe39152201ffcc94cb9fa8ad80e5eae754e97c714057038f6beb5d",
+			"urls": [
+				"bzz-raw://a140c5698887488c3af1dcb9b661e83bcd9392449db8e111a19d5ba012f46208",
+				"dweb:/ipfs/QmaK15toJWNimvohnYNTfvZK7akJUkWVVZajA1x638iRnP"
+			]
+		}
+	},
+	"version": 1
+}

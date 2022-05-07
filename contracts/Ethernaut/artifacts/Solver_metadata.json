@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "whatIsTheMeaningOfLife",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/Solver.sol": "Solver"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/Solver.sol": {
+			"keccak256": "0x7c29a6b31a02198d15a0b668d8b62c4ee1ca291ea223f3da6f83fa3e0a8ffeba",
+			"urls": [
+				"bzz-raw://6f6df5d2c5b868da7909a04521997a7e3a8120c0753b2b2ec9a1e5a00b2b551c",
+				"dweb:/ipfs/QmPY3jms8TZ6jYeH3LpuwEABcCGx65fTcEcgxrh3Zk8Zvc"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.6.0;
+pragma solidity ^0.8.0;
+
+import {Library} from "../contracts/Library.sol";
 
 // https://rinkeby.etherscan.io/address/0x0a5b8b76afb0f1f89af5827c73644ba601198e03#events
 contract Calc {
@@ -57,4 +59,42 @@ contract CalcCaller {
     // function lowLevelDelegateCall(address calcAddr) public {
     //     calcAddr.call(bytes4(keccak256("add(uint,uint)")), 7, 8);
     // }
+}
+
+contract Caller {
+    bytes4 constant fetchSig = bytes4(keccak256("fetchNum()"));
+    bytes4 constant numSig = bytes4(keccak256("num()"));
+    bytes4 constant setSig = bytes4(keccak256("setNum(uint256)"));
+
+    function delegateFetch(address lowCalleeAddr) public returns (uint) {
+        (bool success, bytes memory returnedData) = lowCalleeAddr.call(abi.encodePacked(fetchSig));
+        require(success, "call failed");
+        return uint(Library.getFirst32Bytes(returnedData));
+    }
+
+    function delegateNum(address lowCalleeAddr) public returns (uint) {
+        (bool success, bytes memory returnedData) = lowCalleeAddr.call(abi.encodePacked(numSig));
+        require(success, "call failed");
+        return uint(Library.getFirst32Bytes(returnedData));
+    }
+
+    function delegateSet(address lowCalleeAddr, uint num) public {
+        (bool success, bytes memory returnedData) = lowCalleeAddr.call(abi.encodePacked(setSig, num));
+        if(!success) {
+            require(success, Library._getRevertMsg(returnedData));
+        }
+        
+    }
+}
+
+contract LowCallee {
+    uint public num;
+
+    function fetchNum() public returns (uint) {
+        return num;
+    }
+
+    function setNum(uint val) public {
+        num = val;
+    }
 }

@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fetchNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "setNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CallTest.sol": "LowCallee"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CallTest.sol": {
+			"keccak256": "0x277eb1a979917b00bf707c1f7a29dd85cd11ec59874b07bbda57dbeff07cc28d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://25c47a04d4c64af0d4f086961c87d209d229983e128b2656c8cefc1d88280212",
+				"dweb:/ipfs/QmRasxB999PU8r7eNu5xXRLz3syRw3JJvMsL1G8XbJy91S"
+			]
+		},
+		"contracts/Library.sol": {
+			"keccak256": "0xe595913715829f41621726973eb7b105a50282ee0c3ba19db33db2574b55df50",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eefc52c07305d42417614e0e9cf198653f718788c44922d7080786cf68514a2a",
+				"dweb:/ipfs/QmeGFE9cDE6qT8warkNFGPoHkmUwS2ucv8JvPNfbKzxVaQ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "denialAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/DenialHelper.sol": "DenialHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/Denial.sol": {
+			"keccak256": "0x19248043f462d196626c1c83640f53d6f26212a8d2fc462abdfdaeb913cb964a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d7be0f64c955a8625fd705e663e1c894b3fd2f69c224dc5f122a8576e739319",
+				"dweb:/ipfs/Qmewr5UD5XgqZqCjUDaa9HYz43YT6RQzYDiDakjTCwH513"
+			]
+		},
+		"contracts/Ethernaut/DenialHelper.sol": {
+			"keccak256": "0x796ec480bc43fd9a83d94d587c39906cb7be4585e26a8a136509e4776ed957cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://073c66f2435aea7e7659a8b09631c3868a0cd425c2020017ef186a280d2f4d1e",
+				"dweb:/ipfs/QmcNK3pwZ92rHtJFTLtihabJqEQ5GeCuJ7KFbboVzCYcB1"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.1.0/contracts/math/SafeMath.sol": {
+			"keccak256": "0x9a9cf02622cd7a64261b10534fc3260449da25c98c9e96d1b4ae8110a20e5806",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2df142592d1dc267d9549049ee3317fa190d2f87eaa565f86ab05ec83f7ab8f5",
+				"dweb:/ipfs/QmSkJtcfWo7c42KnL5hho6GFxK6HRNV91XABx1P7xDtfLV"
+			]
+		}
+	},
+	"version": 1
+}
