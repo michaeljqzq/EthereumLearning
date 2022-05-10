@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "selfDestroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/MotorBikeHelper.sol": "MotorBikeHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/MotorBikeHelper.sol": {
+			"keccak256": "0x35a6a1fe389ba0fe2a3a0f48ab863b061a3491dbb350b50f91e37aa981ff8b19",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://51c6a757e8a38ea730dd5aa8d893dd802bc31ee4687026a0759950a1892884d7",
+				"dweb:/ipfs/QmPq2jBq9dRdicREVRr3VWCTWoUngK1zS7ViQEasNKVQyx"
+			]
+		}
+	},
+	"version": 1
+}
