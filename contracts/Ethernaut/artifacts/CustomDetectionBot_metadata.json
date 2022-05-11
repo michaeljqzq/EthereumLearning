@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "fortaAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "vaultAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "msgData",
+						"type": "bytes"
+					}
+				],
+				"name": "handleTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ethernaut/DoubleEntryPointHelper.sol": "CustomDetectionBot"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ethernaut/DoubleEntryPoint.sol": {
+			"keccak256": "0x6d9efec6748a0ba03b0c593e0ef98bea8d3e42fc5594ff928a509161c0554c91",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4279ac3d49de6b4f6c794f849ce16596dfc75370559dcb96e21d78cc2108858b",
+				"dweb:/ipfs/Qma5iSdN1vNm3zMdobPbuhopTeqgvBuVzVaw9rqGqjDQAD"
+			]
+		},
+		"contracts/Ethernaut/DoubleEntryPointHelper.sol": {
+			"keccak256": "0x699830a52af7360d012d9ec0c0a52fcee0c1d1b42c0c19cb9e44cf1b1549a905",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a59b28ab531b92a5f900f1e34af8e2dd959f17b92dded4b93777dce2f837aaf",
+				"dweb:/ipfs/QmVojFkxjSrgkhtMZM2B2xnXAnFneATA2QqitZyV6YqoxH"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.0/contracts/access/Ownable.sol": {
+			"keccak256": "0x1cae4f85f114ff17b90414f5da67365b1d00337abb5bce9bf944eb78a2c0673c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d5ff16b336ce8f906478d5f2eecc6435e00833bdc0b92f6b209cf9e92cb5b2b7",
+				"dweb:/ipfs/QmRD1rAZEqQ73C33cdA3QoUyBDMEWnNKNMc6PNkAZWHeQQ"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.0/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0x21d8a5dd396bee41e4a039d150af08b66b6d09eef416daf8e5edf13ef219084e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://682f1e9c20780070df3c8b52bf3b48d2aa6debcdff5a924e212d78bbaedb945f",
+				"dweb:/ipfs/QmXGhsAPeemtVQ8ip5CsParvX3sgpMm4Lq8EccS3YaTtwA"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.0/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0xf8e8d118a7a8b2e134181f7da655f6266aa3a0f9134b2605747139fcb0c5d835",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9ec48567e7ad06acb670980d5cdf3fd7f3949bf12894f02d68c3bb43e75aa84f",
+				"dweb:/ipfs/QmaG3R2J9cz92YT77vFjYrjMNU2wHp4ypwYD62HqDUqS5U"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.0/contracts/utils/Context.sol": {
+			"keccak256": "0xf930d2df426bfcfc1f7415be724f04081c96f4fb9ec8d0e3a521c07692dface0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fc2bfdea0d2562c76fb3c4cf70a86c6ba25c5a30e8f8515c95aafdf8383f8395",
+				"dweb:/ipfs/QmTbFya18786ckJfLYUoWau9jBTKfmWnWm5XSViWvB7PXN"
+			]
+		}
+	},
+	"version": 1
+}
