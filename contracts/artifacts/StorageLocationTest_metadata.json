@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageLocationTest.sol": "StorageLocationTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StorageLocationTest.sol": {
+			"keccak256": "0x707f4b6b20a6c984503984372efa7c45c4370bf28bcc9ff23b7606ec2cf9c7bd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f8437f24a37d1f7b1af8d3ea132d27a97e717536fb01b5b5a500eefe46c36e2",
+				"dweb:/ipfs/QmWPQhfxnrReGDtgSXi3LYeyVwtXHv4KvzwyQfYrxg8KEv"
+			]
+		}
+	},
+	"version": 1
+}
