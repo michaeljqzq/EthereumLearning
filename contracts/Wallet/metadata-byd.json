@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Country",
+      "value": "US"
+    },
+    {
+      "trait_type": "Fuel type",
+      "value": "Electric"
+    }
+  ],
+  "description": "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and",
+  "image": "ipfs://QmUBqhsfX1SWEAxYFtgmQkRtnR5BCqfkgFNbMyHyi1HW5P",
+  "name": "Tesla"
+}

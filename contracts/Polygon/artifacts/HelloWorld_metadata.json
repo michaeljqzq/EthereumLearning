@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.5.10+commit.5a6ea5b1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "initMessage",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Polygon/HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Polygon/HelloWorld.sol": {
+			"keccak256": "0x1e2dc8373f49f0141c25a3ea85342768c9d1880501744a540ed8d329ef722cfd",
+			"urls": [
+				"bzzr://857d5730a6b359b9d1383b97350381aaeb195b9f725de8b2659c9e6f5a6e9bf6",
+				"dweb:/ipfs/QmchNpBmnmytrPy3rbHAbXTFDuV8WzDJuZf3d8CwosFspk"
+			]
+		}
+	},
+	"version": 1
+}

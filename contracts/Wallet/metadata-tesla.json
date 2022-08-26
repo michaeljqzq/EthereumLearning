@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Country",
+      "value": "CN"
+    },
+    {
+      "trait_type": "Fuel type",
+      "value": "Mixed Electric"
+    }
+  ],
+  "description": "比亚迪汽车,新能源汽车领导者！比亚迪汽车官方网站,提供最权威比亚迪全系车型介绍及购买服务。",
+  "image": "ipfs://QmNjFj7HxAcEvJbEkKK3E8GNMfgTNgEyHV8Beo8LU3zP7R",
+  "name": "BYD"
+}
